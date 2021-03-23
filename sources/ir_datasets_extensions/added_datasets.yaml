@@ -1,0 +1,33 @@
+orconvqa:
+  docs:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/all_blocks.txt.gz'
+    cache_path: 'all_blocks.text.gz'
+  representations:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/passage_reps.pkl.gz'
+    cache_path: 'passage_reps.pkl.gz'
+  passage_ids:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/passage_ids.pkl.gz'
+    cache_path: 'passage_ids.pkl.gz'
+  dev/docs:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/dev_blocks.txt.gz'
+    cache_path: 'dev/dev_blocks.txt.gz'
+  dev/queries:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/dev.txt'
+    cache_path: 'dev/queries.txt'
+  train/queries:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/train.txt'
+    cache_path: 'train/queries.txt'
+  test/queries:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/preprocessed/test.txt'
+    cache_path: 'test/queries.txt'
+  qrels:
+    url: 'https://ciir.cs.umass.edu/downloads/ORConvQA/qrels.txt.gz'
+    cache_path: 'test/qrels.text.gz'
+
+canard:
+  queries:
+    url: 'https://obj.umiacs.umd.edu/elgohary/CANARD_Release.zip'
+    cache_path: 'CANARD_Release.zip'
+
+trec_cast:
+  

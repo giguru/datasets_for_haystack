@@ -1,0 +1,51 @@
+_:
+  desc: '
+<p>
+"Data set and preprocessed data of Open Retrieval Question Answering by Qu et al."
+</p>
+<a href="Open-Retrieval Conversational Question Answering">Paper</a>
+'
+  bibtex: |
+    @article{Qu_2020,
+       title={Open-Retrieval Conversational Question Answering},
+       ISBN={9781450380164},
+       url={http://dx.doi.org/10.1145/3397271.3401110},
+       DOI={10.1145/3397271.3401110},
+       journal={Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+       publisher={ACM},
+       author={Qu, Chen and Yang, Liu and Chen, Cen and Qiu, Minghui and Croft, W. Bruce and Iyyer, Mohit},
+       year={2020},
+       month={Jul}
+    }
+
+
+preprocessed/docs:
+  desc: '
+<p>
+Qu et al. have created preprocessed embedding representations of the passage using their trained retriever.
+</p>'
+
+dev/docs:
+  desc: '<p>Small subset of collection for during development. (Original collection is larger than 20GB)</p>'
+
+train/split200-valid:
+  desc: '
+<p>
+A held-out subset of 200 queries from <a class="ds-ref">antique/train</a>. Use in conjunction with
+<a class="ds-ref">antique/train/split200-train</a>.
+</p>'
+
+
+test:
+  desc: '
+<p>
+Official test set of the ANTIQUE dataset.
+</p>'
+
+
+train/test/non-offensive:
+  desc: '
+<p>
+<a class="ds-ref">antique/test</a> without a set of queries deemed by the authors of ANTIQUE to be
+"offensive (and noisy)."
+</p>'

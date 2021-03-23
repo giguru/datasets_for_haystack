@@ -1,0 +1,16 @@
+_:
+  desc: '
+    CANARD is a dataset for question-in-context rewriting that consists of questions each given in a dialog context
+    together with a context-independent rewriting of the question. The context of each question is the dialog utterences
+    that precede the question. CANARD can be used to evaluate question rewriting models that handle important linguistic
+    phenomena such as coreference and ellipsis resolution.
+    CANARD is based on QuAC (Choi et al., 2018)---a conversational reading comprehension dataset in which answers are
+    selected spans from a given section in a Wikipedia article.
+  '
+  bibtex: |
+    @inproceedings{Elgohary:Peskov:Boyd-Graber-2019,
+      Title = {Can You Unpack That? Learning to Rewrite Questions-in-Context},
+      Author = {Ahmed Elgohary and Denis Peskov and Jordan Boyd-Graber},
+      Booktitle = {Empirical Methods in Natural Language Processing},
+      Year = {2019}
+    }
