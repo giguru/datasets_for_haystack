@@ -9,9 +9,8 @@ Datasets can be loaded into DocumentStores by using the function `load_dataset_i
 
 ## Included datasets
 
-- **CANARD**: a dataset for Question-in-Context Rewriting
-https://sites.google.com/view/qanta/projects/canard
-- **ORConvQA**: dataset used Open-Retrieval conversational Question Answering
-https://arxiv.org/abs/2005.11364
+- [**CANARD**](https://sites.google.com/view/qanta/projects/canard): a dataset for Question-in-Context Rewriting
+- [**ORConvQA**](https://arxiv.org/abs/2005.11364): dataset used Open-Retrieval conversational Question Answering
+
 
 
